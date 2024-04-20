@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(20, 52, 121);
+    color: white;
+}
+
+.track {
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+.track > img {
+    width: 64px;
+    height: 64px;
+    margin: 10px;
+}
+.trackinfo > p:nth-child(1) {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 500px) {
+    .track {
+        width: 100%;
+    }
+}
