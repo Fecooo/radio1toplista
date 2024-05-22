@@ -5,7 +5,7 @@ fetch("https://api.f5api.xyz/radio1top")
         document.getElementById("content").innerHTML +=
         `
             <div class="track">
-                <h2>${track.place - 1}</h2>
+                <h2>${track.place}</h2>
                 <img src="${track.cover}" alt="">
                 <div class="trackinfo">
                     <p>${track.artist} - ${track.title}</p>
